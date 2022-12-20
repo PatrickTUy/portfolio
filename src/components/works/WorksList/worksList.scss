@@ -1,0 +1,13 @@
+.worksList{
+  font-size:2rem;
+  margin-right: 2rem;
+  padding:7px;
+  border-radius:10px;
+  cursor:pointer;
+  &.active{
+    background-color:lightskyblue;
+    color:white;
+
+  }
+ 
+}

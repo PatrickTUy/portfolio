@@ -1,0 +1,24 @@
+@import '../../global.scss';
+.about{
+  background-color: $lightgreen;
+  .about-container{
+    display:flex;
+    flex-direction: row;
+    margin:3rem;
+
+    }
+  
+    .about-container-right{
+      flex:0.5;
+    }
+
+    
+}
+
+@media  (min-width:900) {
+  .about-container{
+    display:flex!important;
+    flex-direction:column !important
+  }
+}
+
