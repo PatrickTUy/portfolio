@@ -33,9 +33,9 @@ const Home = () => {
             </button>
           </div>
         </div>
-        {/* <div className='w-[45%]'>
-          <img src="./image.png" alt="" />
-        </div> */}
+        <div className='w-[45%]'>
+          <img src="./image.png" alt="" className='object-cover' />
+        </div>
       </div>
       <h1 className="flex w-fit gap-2 font-inter text-white text-xl mmd:hidden mmd:text-xl md:text-3xl mt-16 mx-auto">
         Freelance{' '}
