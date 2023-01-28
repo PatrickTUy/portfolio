@@ -3,8 +3,8 @@ import { MdArrowForwardIos } from 'react-icons/md';
 
 const About = () => {
   return (
-    <div className="flex flex-col">
-      <div className="flex gap-4 w-full items-center">
+    <div className="flex flex-col overflow-y-scroll">
+      <div className="flex gap-4 w-full items-center mt-16">
         <div className="flex flex-col gap-4 w-[48%] justify-start items-center">
           <h1 className="font-inter font-bold text-3xl text-yellow text-center">
             {' '}
@@ -29,11 +29,11 @@ const About = () => {
         </div>
       </div>
 
-      <div className="flex flex-col">
+      <div className="flex flex-col mt-16">
         <h1 className="font-inter font-bold text-3xl text-yellow text-center">
           MY DEVELOPMENT PROCESS
         </h1>
-        <div className="flex self-center">
+        <div className="flex self-center mt-8">
           <div className="flex gap-4 items-center">
             <div className="flex flex-col bg-light justify-center items-center p-4 rounded-full w-[150px] h-[150px]">
               <h1 className="font-inter text-3xl text-white font-bold">1</h1>
@@ -61,6 +61,86 @@ const About = () => {
               <h2 className="font-rowdies text-xl text-white">LAUNCH</h2>
             </div>
           </div>
+        </div>
+      </div>
+      <div className="w-full flex justify-between">
+        <div className="flex flex-col w-[40%]">
+          <h1 className="font-inter text-yellow font-bold text-3xl mb-8">
+            SKILLS
+          </h1>
+          <div className="flex flex-col mt-2">
+            <label
+              for="react"
+              className="font-inter font-bold text-white text-xl mb-2"
+            >
+              ReactJS & Redux
+            </label>
+            <progress id="react" max="100" value="80">
+              70%
+            </progress>
+          </div>
+
+          <div className="flex flex-col mt-2">
+            <label
+              for="react"
+              className="font-inter font-bold text-white text-xl mb-2"
+            >
+              Web Design
+            </label>
+            <progress id="react" max="100" value="80">
+              70%
+            </progress>
+          </div>
+          <div className="flex flex-col mt-2">
+            <label
+              for="react"
+              className="font-inter font-bold text-white text-xl mb-2"
+            >
+              NodeJS,Express & GraphQl
+            </label>
+            <progress id="react" max="100" value="80">
+              70%
+            </progress>
+          </div>
+          <div className="flex flex-col mt-2">
+            <label
+              for="react"
+              className="font-inter font-bold text-white text-xl mb-2"
+            >
+              Mongo DB & PostgreSQL
+            </label>
+            <progress id="react" max="100" value="80">
+              70%
+            </progress>
+          </div>
+          <div className="flex flex-col mt-2">
+            <label
+              for="react"
+              className="font-inter font-bold text-white text-xl mb-2"
+            >
+              Mocha & Chai
+            </label>
+            <progress id="react" max="100" value="80">
+              70%
+            </progress>
+          </div>
+        </div>
+
+        <div className="flex flex-col w-[45%]">
+          <h1 className="font-inter text-yellow font-bold text-3xl mb-8">
+            SERVICES
+          </h1>
+          <ul className='text-white'>
+            <li className="font-inter font-bold text-white text-xl mb-2">
+              Project concept
+            </li>
+            <li className="font-inter font-bold text-white text-xl mb-2">
+              Web design
+            </li>
+            <li className="font-inter font-bold text-white text-xl mb-2">
+              Web development
+            </li>
+          </ul>
         </div>
       </div>
     </div>

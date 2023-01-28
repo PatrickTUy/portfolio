@@ -30,3 +30,40 @@ code {
   width: 100%;
   height: calc(100vh - 80px);
 }
+
+/* progress bar  chrome */
+progress[value] {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 80%;
+  height: 10px;
+}
+
+progress[value]::-webkit-progress-value {
+  background-color: #dfda53;
+  border-radius: 2px;
+}
+
+/* progress bar  safari */
+progress::-webkit-progress-bar {
+  background-color: #6d6d6d;
+}
+
+progress::-webkit-progress-value {
+  background-color: #dfda53 !important;
+}
+
+/* For Firefox */
+progress {
+  background-color: #6d6d6d;
+}
+
+progress::-moz-progress-bar {
+  background-color: #dfda53 !important;
+}
+
+ul {
+  list-style-type: disc;
+  padding: 10px 0 !important;
+  padding-left: 20px !important;
+}
