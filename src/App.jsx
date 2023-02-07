@@ -8,9 +8,9 @@ import Contact from './pages/Contact';
 
 function App() {
   return (
-    <div className="h-full w-full">
+    <div className="h-full w-[100%]">
       <TopBar />
-      <div className="sections">
+      <div className="sections w-full">
         <Home />
         <About />
         <Work />
