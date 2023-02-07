@@ -6,22 +6,17 @@ import Work from './pages/Work';
 import Blog from './pages/Blog';
 import Contact from './pages/Contact';
 
-
-
 function App() {
   return (
     <div className="h-full w-full">
-      <TopBar/>
-      <div className='sections py-8 px-2 mmd:px-8 xlg:px-32'>
-      <Home/>
-      <About/>
-      <Work/>
-      <Blog/>
-      <Contact/>
+      <TopBar />
+      <div className="sections">
+        <Home />
+        <About />
+        <Work />
+        <Blog />
+        <Contact />
       </div>
-      
-      
-     
     </div>
   );
 }

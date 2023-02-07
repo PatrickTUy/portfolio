@@ -3,7 +3,7 @@ import { MdArrowForwardIos } from 'react-icons/md';
 
 const About = () => {
   return (
-    <div className="flex flex-col overflow-y-scroll">
+    <div className="bg-primary flex flex-col xlg:px-32 overflow-y-hidden">
       <div className="flex gap-4 w-full items-center mt-16">
         <div className="flex flex-col gap-4 w-[48%] justify-start items-center">
           <h1 className="font-inter font-bold text-3xl text-yellow text-center">
@@ -29,11 +29,11 @@ const About = () => {
         </div>
       </div>
 
-      <div className="flex flex-col mt-16">
+      <div className="flex flex-col mt-32">
         <h1 className="font-inter font-bold text-3xl text-yellow text-center">
           MY DEVELOPMENT PROCESS
         </h1>
-        <div className="flex self-center mt-8">
+        <div className="flex self-center mt-16">
           <div className="flex gap-4 items-center">
             <div className="flex flex-col bg-light justify-center items-center p-4 rounded-full w-[150px] h-[150px]">
               <h1 className="font-inter text-3xl text-white font-bold">1</h1>
@@ -63,7 +63,7 @@ const About = () => {
           </div>
         </div>
       </div>
-      <div className="w-full flex justify-between">
+      <div className="w-[60%] flex justify-between mt-32 mx-auto">
         <div className="flex flex-col w-[40%]">
           <h1 className="font-inter text-yellow font-bold text-3xl mb-8">
             SKILLS
@@ -126,7 +126,7 @@ const About = () => {
           </div>
         </div>
 
-        <div className="flex flex-col w-[45%]">
+        <div className="flex flex-col w-fit">
           <h1 className="font-inter text-yellow font-bold text-3xl mb-8">
             SERVICES
           </h1>
