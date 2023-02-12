@@ -28,7 +28,7 @@ const Home = () => {
                 UI/UX DESIGNER.
               </span>
             </h1>
-            <button className="min-w-[150px] max-w-[250px] mt-8 border border-yellow py-2 mmd:py-4 px-4 mmd:px-8 text-center font-inter text-yellow">
+            <button className="min-w-[100px] text-xs sm:text-base mmd:text-xl max-w-[250px] mt-8 border border-yellow py-2 mmd:py-4 px-2 mmd:px-8 text-center font-inter text-yellow">
               CONTACT ME
             </button>
           </div>
@@ -44,7 +44,7 @@ const Home = () => {
         </span>
       </h1>
 
-      <FiChevronsDown size={50} color="#DFDA53" className="mt-28 mx-auto " />
+      <FiChevronsDown  color="#DFDA53" className=" h-[30px] w-[30px] mmd:h-[50px] mmd:w-[50px] mt-10 mmd:mt-28 mx-auto " />
     </div>
   );
 };
