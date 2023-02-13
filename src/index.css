@@ -13,6 +13,7 @@ html,
   padding: 0;
   height: 100%;
   width: 100%;
+  max-width: 1920px;
 }
 
 code {
@@ -38,6 +39,8 @@ code {
   .sections > * {
     height:fit-content;
   }
+  
+
 }
 
 /* progress bar  chrome */
@@ -45,7 +48,7 @@ progress[value] {
   -webkit-appearance: none;
   appearance: none;
   width: 80%;
-  height: 10px;
+  height: 8px;
 }
 
 progress[value]::-webkit-progress-value {

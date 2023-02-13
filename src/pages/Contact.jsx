@@ -11,52 +11,52 @@ const Contact = () => {
       <h1 className="text-white mx-auto text-3xl w-fit mt-4 mb-12">
         Get in <span className="text-yellow text-3xl">touch</span>
       </h1>
-      <div className="flex justify-between w-[70%] mx-auto mb-32">
-        <div className="flex gap-2 items-center">
-          <div className="bg-[#353131] flex h-[80px] w-[80px] rounded-full items-center justify-center">
-            <MdOutlineEmail size={40} color="#DFDA53" className="" />
+      <div className="flex flex-col md:flex-row gap-4 justify-between w-[80%] md:w-[70%] mx-auto mb-16 md:mb-32">
+        <div className="flex items-center">
+          <div className="bg-[#353131] flex h-[60px] w-[60px] md:h-[80px] md:w-[80px] rounded-full items-center justify-center m-2">
+            <MdOutlineEmail  color="#DFDA53" className="h-[30px] w-[30px]" />
           </div>
           <div>
-            <h1 className="text-2xl text-white w-fit">Email</h1>
-            <h1 className="text-2xl text-white w-fit">yangeney@gmail.com</h1>
+            <h1 className="text-lg md:text-2xl text-white w-fit">Email</h1>
+            <h1 className="text-lg md:text-2xl text-white w-fit">yangeney@gmail.com</h1>
           </div>
         </div>
 
-        <div className="flex gap-2 items-center">
-          <div className="bg-[#353131] flex h-[80px] w-[80px] rounded-full items-center justify-center">
-            <GoLocation size={40} color="#DFDA53" className="" />
+        <div className="flex items-center">
+          <div className="bg-[#353131] flex h-[60px] w-[60px] md:h-[80px] md:w-[80px] rounded-full items-center justify-center m-2">
+            <GoLocation  color="#DFDA53" className="h-[30px] w-[30px]" />
           </div>
           <div>
-            <h1 className="text-2xl text-white w-fit">Adress</h1>
-            <h1 className="text-2xl text-white w-fit">KG 123 ST</h1>
+            <h1 className="text-lg md:text-2xl text-white w-fit">Adress</h1>
+            <h1 className="text-lg md:text-2xl text-white w-fit">KG 123 ST</h1>
           </div>
         </div>
 
-        <div className="flex gap-2 items-center">
-          <div className="bg-[#353131] flex h-[80px] w-[80px] rounded-full items-center justify-center">
-            <FaPhoneAlt size={40} color="#DFDA53" className="" />
+        <div className="flex items-center ">
+          <div className="bg-[#353131] flex h-[60px] w-[60px] md:h-[80px] md:w-[80px] rounded-full items-center justify-center m-2">
+            <FaPhoneAlt  color="#DFDA53" className="h-[30px] w-[30px]" />
           </div>
           <div>
-            <h1 className="text-2xl text-white w-fit">Phone</h1>
-            <h1 className="text-2xl text-white w-fit">+(250) 789 810 670</h1>
+            <h1 className="text-lg md:text-2xl text-white w-fit">Phone</h1>
+            <h1 className="text-lg md:text-2xl text-white w-fit">+(250) 789 810 670</h1>
           </div>
         </div>
       </div>
 
-      <div className="flex justify-between items-center  w-[80%] mx-auto">
-        <div className="flex flex-col gap-8 w-[60%]">
-          <h1 className="text-yellow text-5xl font-bold">Let's chat.</h1>
-          <h1 className="text-white text-opacity-80 text-5xl font-bold">
+      <div className="flex flex-col md:flex-row justify-between items-center px-4 w-full md:w-[80%] mx-auto">
+        <div className="flex flex-col gap-4 md:gap-8 w-full md:w-[60%]">
+          <h1 className="text-yellow text-3xl md:text-5xl font-bold">Let's chat.</h1>
+          <h1 className="text-white text-opacity-80 text-2xl md:text-5xl font-semibold  md:font-bold">
             Tell me about your project.
           </h1>
-          <h1 className="text-white text-opacity-80 text-2xl font-bold">
+          <h1 className="text-white text-opacity-80 text-lg md:text-2xl font-semibold  md:font-bold">
             Let's build something together!
           </h1>
         </div>
-        <div className="flex flex-col gap-4 w-[40%]">
-          <h1 className="flex items-center gap-2 text-2xl text-white text-opacity-80">
+        <div className="flex flex-col gap-4 mt-16 md:mt-0 w-[90%] max-w-[330px] md:w-[40%]">
+          <h1 className="flex items-center gap-2 text-base md:text-2xl text-white text-opacity-80">
             Send me a quick message
-            <IoRocketSharp size={40} color="#DFDA53" />
+            <IoRocketSharp  color="#DFDA53" className='h-[30px] w-[30px] md:[40px] md:[40px]' />
           </h1>
           <input
             type="text"
