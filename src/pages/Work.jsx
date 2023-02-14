@@ -4,7 +4,7 @@ import { BsGithub } from 'react-icons/bs';
 const Work = () => {
   const blogs = [1, 2, 3, 4, 5, 6];
   return (
-    <div className="flex flex-col  bg-[#2c2a2a] xlg:px-32">
+    <div className="flex flex-col  bg-[#2c2a2a] xlg:px-32 py-16">
       <h1 className="font-inter font-bold text-3xl text-yellow pb-4 border-yellow border-b w-[80%] mx-auto">
         PROJECTS
       </h1>

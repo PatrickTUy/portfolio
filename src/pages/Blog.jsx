@@ -3,16 +3,16 @@ import { MdArrowForwardIos } from 'react-icons/md';
 
 const Blog = () => {
   return (
-    <div className="bg-primary flex flex-col w-full h-full pt-8 xlg:px-32 overflow-y-hidden">
+    <div className="bg-primary flex flex-col w-full pt-8 xlg:px-32 ">
       <div className="flex flex-col h-fit">
-        <h1 className="font-bold text-yellow text-xl text-center my-2">
+        <h1 className="font-bold text-yellow text-lg text-center my-2">
           {' '}
           LATEST NEWS
         </h1>
-        <h1 className="font-bold text-white text-opacity-70 text-3xl text-center mb-2">
+        <h1 className="font-bold text-white text-opacity-70 text-2xl text-center mb-2">
           My Latest Articles
         </h1>
-        <p className="text-xl text-white text-center text-opacity-60 w-[90%] md:w-[60%] mx-auto mb-8">
+        <p className="text-base text-white text-center text-opacity-60 w-[90%] md:w-[60%] mx-auto mb-8">
           Aliquam in ex nisi. Suspendisse tincidunt quam sit amet tristique
           luctus. Curabitur rutrum id velit eget vulputate. Cras et ornare elit.
           Donec vel libero placerat, venenatis nibh eu, luctus neque. Nullam
