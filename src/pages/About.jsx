@@ -29,14 +29,14 @@ const About = () => {
         </div>
       </div>
 
-      <div className="flex flex-col mt-16 mmd:mt-32">
+      <div className="flex flex-col mt-8 mmd:mt-16">
         <h1 className="font-inter font-bold text-xl md:text-2xl text-yellow text-center">
           MY DEVELOPMENT PROCESS
         </h1>
         <div className="flex flex-col sm:flex-row self-center mt-8 md:mt-16">
           <div className="flex flex-col sm:flex-row gap-1 mmd:gap-2 md:gap-4 items-center">
-            <div className="flex flex-col bg-light justify-center items-center p-4 rounded-full w-[100px] h-[100px] sm:w-[65px] sm:h-[65px] mmd:w-[100px] mmd:h-[100px] md:w-[150px] md:h-[150px]">
-              <h1 className="font-inter text-xl sm:text-[10px] mmd:text-xl md:text-3xl leading-none text-white font-bold">
+            <div className="flex flex-col bg-light justify-center items-center p-4 rounded-full w-[100px] h-[100px] sm:w-[65px] sm:h-[65px] mmd:w-[100px] mmd:h-[100px] md:w-[130px] md:h-[130px]">
+              <h1 className="font-inter text-xl sm:text-[10px] mmd:text-xl md:text-2xl leading-none text-white font-bold">
                 1
               </h1>
               <h2 className="font-rowdies text-sm sm:text-[10px] mmd:text-sm md:text-xl text-white">
@@ -45,12 +45,12 @@ const About = () => {
             </div>
             <MdArrowForwardIos
               color="#DFDA53"
-              className="h-[20px] w-[20px] rotate-90 sm:rotate-0 mmd:h-[33px] mmd:w-[33px] md:h-[50px] md:w-[50px]"
+              className="h-[20px] w-[20px] rotate-90 sm:rotate-0 mmd:h-[33px] mmd:w-[33px] md:h-[40px] md:w-[40px]"
             />
           </div>
           <div className="flex flex-col sm:flex-row gap-1 mmd:gap-2 md:gap-4 items-center ">
-            <div className="flex flex-col bg-light justify-center items-center p-4 rounded-full w-[100px] h-[100px] sm:w-[65px] sm:h-[65px] mmd:w-[100px] mmd:h-[100px] md:w-[150px] md:h-[150px]">
-              <h1 className="font-inter text-xl sm:text-[10px] mmd:text-xl md:text-3xl leading-none text-white font-bold">
+            <div className="flex flex-col bg-light justify-center items-center p-4 rounded-full w-[100px] h-[100px] sm:w-[65px] sm:h-[65px] mmd:w-[100px] mmd:h-[100px] md:w-[130px] md:h-[130px]">
+              <h1 className="font-inter text-xl sm:text-[10px] mmd:text-xl md:text-2xl leading-none text-white font-bold">
                 2
               </h1>
               <h2 className="font-rowdies text-sm sm:text-[10px] mmd:text-sm md:text-xl text-white">
@@ -59,12 +59,12 @@ const About = () => {
             </div>
             <MdArrowForwardIos
               color="#DFDA53"
-              className="h-[20px] w-[20px] rotate-90 sm:rotate-0 mmd:h-[33px] mmd:w-[33px] md:h-[50px] md:w-[50px]"
+              className="h-[20px] w-[20px] rotate-90 sm:rotate-0 mmd:h-[33px] mmd:w-[33px] md:h-[40px] md:w-[40px]"
             />
           </div>
           <div className="flex flex-col sm:flex-row gap-1 mmd:gap-2 md:gap-4 items-center">
-            <div className="flex flex-col bg-light justify-center items-center p-4 rounded-full  w-[100px] h-[100px] sm:w-[65px] sm:h-[65px] mmd:w-[100px] mmd:h-[100px] md:w-[150px] md:h-[150px]">
-              <h1 className="font-inter text-xl sm:text-[10px] mmd:text-xl md:text-3xl leading-none text-white font-bold">
+            <div className="flex flex-col bg-light justify-center items-center p-4 rounded-full  w-[100px] h-[100px] sm:w-[65px] sm:h-[65px] mmd:w-[100px] mmd:h-[100px] md:w-[130px] md:h-[130px]">
+              <h1 className="font-inter text-xl sm:text-[10px] mmd:text-xl md:text-2xl leading-none text-white font-bold">
                 3
               </h1>
               <h2 className="font-rowdies text-sm sm:text-[10px] mmd:text-sm md:text-xl text-white">
@@ -73,12 +73,12 @@ const About = () => {
             </div>
             <MdArrowForwardIos
               color="#DFDA53"
-              className="h-[20px] w-[20px] rotate-90 sm:rotate-0 mmd:h-[33px] mmd:w-[33px] md:h-[50px] md:w-[50px]"
+              className="h-[20px] w-[20px] rotate-90 sm:rotate-0 mmd:h-[33px] mmd:w-[33px] md:h-[40px] md:w-[40px]"
             />
           </div>
           <div className="flex items-center">
-            <div className="flex flex-col bg-light justify-center items-center p-4 rounded-full  w-[100px] h-[100px] sm:w-[65px] sm:h-[65px] mmd:w-[100px] mmd:h-[100px] md:w-[150px] md:h-[150px]">
-              <h1 className="font-inter text-xl sm:text-[10px] mmd:text-xl md:text-3xl leading-none text-white font-bold">
+            <div className="flex flex-col bg-light justify-center items-center p-4 rounded-full  w-[100px] h-[100px] sm:w-[65px] sm:h-[65px] mmd:w-[100px] mmd:h-[100px] md:w-[130px] md:h-[130px]">
+              <h1 className="font-inter text-xl sm:text-[10px] mmd:text-xl md:text-2xl leading-none text-white font-bold">
                 4
               </h1>
               <h2 className="font-rowdies text-sm sm:text-[10px] mmd:text-sm md:text-xl text-white">
