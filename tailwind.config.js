@@ -3,7 +3,7 @@ module.exports = {
   theme: {
     extend: {
       screens: {
-        xs:'280px',
+        xs: '280px',
         sm: '375px',
         mmd: '600px',
         md: '800px',
@@ -13,10 +13,10 @@ module.exports = {
       },
       colors: {
         primary: '#353131',
-        dark:'#423C3C',
+        dark: '#2C2A2A',
         light: '#423C3C',
         yellow: '#DFDA53',
-        white:'#CCFFFFFF'
+        white: '#CCFFFFFF',
       },
       fontFamily: {
         inter: ['Inter'],
