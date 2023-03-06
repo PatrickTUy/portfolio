@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { MdArrowForwardIos } from 'react-icons/md';
 
 const Blog = () => {
@@ -160,9 +161,9 @@ const Blog = () => {
           </div>
         </div>
       </div>
-      <h1 className="w-[90%] mx-auto text-lg font-bold text-white text-opacity-70 mt-4 underline underline-offset-2 cursor-pointer hover:text-yellow transition ease-in-out delay-200">
+      <Link to="/blogs" className="w-[90%] mx-auto text-lg font-bold text-white text-opacity-70 mt-4 underline underline-offset-2 cursor-pointer hover:text-yellow transition ease-in-out delay-200">
         See my collection of articles
-      </h1>
+      </Link>
     </div>
   );
 };

@@ -1,27 +1,20 @@
-import React from 'react';
-// import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import TopBar from './components/TopBar';
-import Home from './pages/Home';
-import About from './pages/About';
-import Work from './pages/Work';
-import Blog from './pages/Blog';
+import React, { useState, lazy } from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import SinglePage from './SinglePage';
+import Blogs from './pages/BlogsPage';
 import BlogPage from './pages/BlogPage';
-import Contact from './pages/Contact';
+import Dashboard from './pages/dashboard/Dashboard';
 
 function App() {
   return (
-    <div className="h-full w-[100%]">
-      <TopBar />
-      <div className="sections w-full">
-        <Home />
-        <About />
-        <Work />
-        <Blog />
-        <Contact />
-        <BlogPage />
-      </div>
-     
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<SinglePage />} />
+        <Route path="/blogs" element={<Blogs />} />
+        <Route path="/single" element={<BlogPage />} />
+        <Route path="/dashboard" element={<Dashboard />} />
+      </Routes>
+    </Router>
   );
 }
 
