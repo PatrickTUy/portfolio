@@ -6,10 +6,10 @@ const BlogsPage = () => {
   const blogs = [1, 2, 3, 4, 5, 6];
   return (
     <div className="relative h-full w-full bg-primary overflow-y-auto">
-       <div className='fixed w-[100vw] top-0 h-[60px] bg-black z-20'>
+       <div className='fixed w-[100vw] top-0 h-[60px] bg-black z-20 '>
       
       </div>
-      <div className="absolute top-[60px] w-fit h-fit px-8 md:px-0 mx-auto ">
+      <div className="relative top-[60px] w-fit h-fit px-8 md:px-0 mx-auto  my-4">
         {blogs.map((blog) => {
           return (
             <div className="bg-dark flex flex-col md:flex-row rounded-md w-[90%] md:w-[750px] h-fit md:h-[200px] p-4 shadow-white hover:drop-shadow-[0_1px_2px_rgba(255,255,255,0.41)] transform hover:scale-[1.02] transition ease-in mx-auto gap-4 mb-4">

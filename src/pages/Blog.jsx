@@ -41,14 +41,17 @@ const Blog = () => {
               Aliquam in ex nisi. Suspendisse tincidunt quam sit Aliquam in
               tincidunt quam sit Suspendisse tincidunt ...
             </h1>
-            <div className="flex flex-row gap-2 w-fit items-center mt-4">
+            <Link
+              to="/single"
+              className="flex flex-row gap-2 w-fit items-center mt-1"
+            >
               <h2 className="text-yellow font-semibold text-base">Read more</h2>
               <MdArrowForwardIos
                 color="#DFDA53"
                 size={12}
                 className="mt-[3px]"
               />
-            </div>
+            </Link>
           </div>
         </div>
 
@@ -72,14 +75,17 @@ const Blog = () => {
               Aliquam in ex nisi. Suspendisse tincidunt quam sit Aliquam in
               tincidunt quam sit Suspendisse tincidunt ...
             </h1>
-            <div className="flex flex-row gap-2 w-fit items-center mt-4">
+            <Link
+              to="/single"
+              className="flex flex-row gap-2 w-fit items-center mt-1"
+            >
               <h2 className="text-yellow font-semibold text-base">Read more</h2>
               <MdArrowForwardIos
                 color="#DFDA53"
                 size={12}
                 className="mt-[3px]"
               />
-            </div>
+            </Link>
           </div>
         </div>
 
@@ -161,7 +167,10 @@ const Blog = () => {
           </div>
         </div>
       </div>
-      <Link to="/blogs" className="w-[90%] mx-auto text-lg font-bold text-white text-opacity-70 mt-4 underline underline-offset-2 cursor-pointer hover:text-yellow transition ease-in-out delay-200">
+      <Link
+        to="/blogs"
+        className="w-[90%] mx-auto text-lg font-bold text-white text-opacity-70 mt-4 underline underline-offset-2 cursor-pointer hover:text-yellow transition ease-in-out delay-200"
+      >
         See my collection of articles
       </Link>
     </div>
