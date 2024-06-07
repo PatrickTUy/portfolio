@@ -1,3 +1,103 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+* {
+  box-sizing: border-box;
+}
+
+body,
+html,
+#root {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  max-width: 1920px;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.sections {
+  width: 100%;
+  height: calc(100vh - 80px);
+  position: relative;
+  top: 80px;
+}
+
+@media (max-width: 600px) {
+
+  .sections {
+    width: 100%;
+    height: fit-content;
+  }
+  .sections > * {
+    height:fit-content;
+  }
+  
+
+}
+
+/* progress bar  chrome */
+progress[value] {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 80%;
+  height: 8px;
+}
+
+progress[value]::-webkit-progress-value {
+  background-color: #dfda53;
+  border-radius: 2px;
+}
+
+/* progress bar  safari */
+progress::-webkit-progress-bar {
+  background-color: #6d6d6d;
+}
+
+progress::-webkit-progress-value {
+  background-color: #dfda53 !important;
+}
+
+/* For Firefox */
+progress {
+  background-color: #6d6d6d;
+}
+
+progress::-moz-progress-bar {
+  background-color: #dfda53 !important;
+}
+
+ul {
+  list-style-type: disc;
+  padding: 10px 0 !important;
+  padding-left: 20px !important;
+}
+
+.grid-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  /* grid-auto-columns: (300px,auto);
+  grid-template-rows: 300px;
+  grid-auto-rows: 300px; */
+  gap: 20px;
+}
+
+/* input[type="file"] {
+  display: none;
+} */
+
+/* className="cursor-pointer rounded-lg bg-black text-white font-bold px-4 py-2 w-fit my-4" */
+
+::-webkit-file-upload-button {
+  background: black;
+  font-weight: 700;
+  color:white;
+  padding: 8px 16px;
+  border-radius: 8px;
+  
+}

@@ -1,27 +1,20 @@
-import React, { useState } from 'react';
-import Topbar from './components/topbar/Topbar';
-import Intro from './components/intro/Intro';
-import About from './components/about/About';
-import Works from './components/works/Works';
-import Contact from './components/contact/Contact';
-import Testimonials from './components/testimonials/Testimonials';
-import Hamburger from './components/hamburger/Hamburger';
-import './app.scss';
-function App() {
-  const [isTrue, setIsTrue] = useState(false);
+import React, { useState, lazy } from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import SinglePage from './SinglePage';
+import Blogs from './pages/BlogsPage';
+import BlogPage from './pages/BlogPage';
+import Dashboard from './pages/dashboard/Dashboard';
 
+function App() {
   return (
-    <div className="app">
-      <Topbar changeStateInParent={() => setIsTrue(!isTrue)} />
-      <Hamburger statusBar={isTrue} />
-      <div className="sections">
-        <Intro />
-        <About />
-        <Works />
-        <Testimonials />
-        <Contact />
-      </div>
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<SinglePage />} />
+        <Route path="/blogs" element={<Blogs />} />
+        <Route path="/single" element={<BlogPage />} />
+        <Route path="/dashboard" element={<Dashboard />} />
+      </Routes>
+    </Router>
   );
 }
 
